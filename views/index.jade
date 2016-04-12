@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+
+	p 
+		a(href='/sigup')
+			注册
+
+	p 
+		a(href='/login')
+			登陆
+
+	p 
+		a(href='/article')
+			文章列表
+
+	p 
+		a(href='/article')
+			用户管理

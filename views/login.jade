@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	p
+		h1 登录
+	form(action='login', method='post')
+		p 
+			input(type='text', name='id')
+		p 
+			input(type='text', name='password')
+		p 
+			input(type='submit', value='提交')
